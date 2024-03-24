@@ -9,11 +9,15 @@ export class UsersService {
   }
 
   findAll() {
-    return `This action returns all users`;
+    return `batata`;
   }
 
   findOne(id: number) {
     return `This action returns a #${id} user`;
+  }
+
+  receberAnimal(nome_do_animal: string) {
+    return `O animal ${nome_do_animal} foi cadastrado com sucesso`;
   }
 
   update(id: number, updateUserDto: UpdateUserDto) {
